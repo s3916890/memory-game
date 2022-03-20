@@ -1,0 +1,47 @@
+/* REFURBISHING THE ELEMENT */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&family=Fraunces:wght@500&family=Open+Sans:wght@500&family=Permanent+Marker&family=Poppins:wght@100;600;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+
+}
+body{
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+main{
+    min-height: 100vh;
+}
+@media screen and (min-width: 800px) {
+    .score{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translateY(4rem);
+    }
+    .score h3{
+        font-family: 'Azonix', sans-serif;
+        font-size: 2.2rem;
+        margin: 0 auto;
+    }
+    #result{
+        font-family: 'Poppins', sans-serif;
+    }
+    #grid{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 16px;
+        width: 400px;
+        height: 300px;
+        margin: 0 auto;
+        transform: translateY(10rem) translateX(-8rem);
+    }
+    img{
+        width: 150px;
+        height: 140px;    
+    }
+
+}
